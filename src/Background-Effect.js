@@ -20,8 +20,8 @@ export default function Background() {
           {isVisible ? (
           <Lottie 
             options={defaultOptions}
-            height={window.innerWidth <= 768 ? 800 : 960}
-            width={window.innerWidth <= 768 ? 400 : 2000}
+            height={window.innerWidth <= 768 ? 800 : 850}
+            width={window.innerWidth <= 768 ? 400 : 1480}
             />
           ) : null}
             

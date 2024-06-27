@@ -28,8 +28,8 @@ export default function HomeIntro() {
           {isVisible ? (
           <Lottie 
             options={defaultOptions}
-            height={window.innerWidth <= 768 ? 750 : 900}
-            width={window.innerWidth <= 768 ? 400 : 900}
+            height={window.innerWidth <= 768 ? 750 : 700}
+            width={window.innerWidth <= 768 ? 400 : 800}
             />
           ) : null}
             
