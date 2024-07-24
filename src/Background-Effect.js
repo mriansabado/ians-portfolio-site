@@ -21,7 +21,7 @@ export default function Background() {
           <Lottie 
             options={defaultOptions}
             height={window.innerWidth <= 768 ? 800 : 850}
-            width={window.innerWidth <= 768 ? 400 : 1480}
+            width={window.innerWidth <= 768 ? 500 : 1800}
             />
           ) : null}
             

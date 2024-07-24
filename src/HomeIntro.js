@@ -1,6 +1,6 @@
 import React from 'react';
 import Lottie from 'react-lottie';
-import animationData from './assets/site-intro.json';
+import animationData from './assets/hello-animation.json';
 import { useState, useEffect } from 'react';
 
 export default function HomeIntro() {
@@ -9,7 +9,7 @@ export default function HomeIntro() {
     useEffect(() => {
         const timer = setTimeout(() => {
             setVisible(false);
-        }, 6000);
+        }, 5500);
 
         return () => clearTimeout(timer);
     }, []);
@@ -28,8 +28,8 @@ export default function HomeIntro() {
           {isVisible ? (
           <Lottie 
             options={defaultOptions}
-            height={window.innerWidth <= 768 ? 750 : 700}
-            width={window.innerWidth <= 768 ? 400 : 800}
+            height={window.innerWidth <= 768 ? 750 : 900}
+            width={window.innerWidth <= 768 ? 400 : 700}
             />
           ) : null}
             
