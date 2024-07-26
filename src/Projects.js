@@ -1,8 +1,10 @@
 import React from "react";
+import BarblendImage from './assets/barblend.png';
+import Fontastic from './assets/fontastic-home.jpeg';
 
 const projects = [
-  { title: 'Fontastic', description: 'A React Native app', link: '#', image: 'https://via.placeholder.com/400' },
-  { title: 'Project 2', description: 'Description for project 2', link: '#', image: 'https://via.placeholder.com/400' },
+  { title: 'Fontastic', description: 'Input text and have it appear on your screen in full size. Communicate non-verbally to your friends across the room! Stack: React Native | Lottie files', link: '#', image: Fontastic },
+  { title: 'BarBlend Guru', description: 'Lookup cocktail recipes and get drink suggestions by utilizing this web app. Stack: Next JS | Tailwind CSS | Rest API', link: '#', image: BarblendImage },
   { title: 'Project 3', description: 'Description for project 3', link: '#', image: 'https://via.placeholder.com/400' },
   { title: 'Project 4', description: 'Description for project 4', link: '#', image: 'https://via.placeholder.com/400' },
 ];

@@ -19,8 +19,8 @@ const HomePage = () => {
                 <Background />
               </div>
               <div className="relative z-10">
-                <h1 className="mb-5 text-5xl md:text-6xl font-bold text-white">Ian Sabado</h1>
-                <p className="mb-5 text-2xl md:text-3xl text-white">Software Engineer <br /> San Francisco Bay Area</p>
+                <h1 className="mb-5 text-5xl md:text-6xl font-bold text-white libre-baskerville-bold">Ian Sabado</h1>
+                <p className="mb-5 text-2xl md:text-3xl text-white libre-baskerville-regular">Software Engineer <br /> San Francisco Bay Area</p>
               </div>
             </div>
           </div>
