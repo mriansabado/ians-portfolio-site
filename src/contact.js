@@ -45,7 +45,7 @@ const Contact = () => {
           
         </div>
         <div className="relative z-10 w-full">
-          <h1 className="text-5xl md:text-7xl font-extrabold mb-8">Contact Me</h1>
+          <h1 className="text-5xl md:text-7xl font-extrabold mb-8">Contact</h1>
           <div className="w-full mt-8 space-y-6">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="flex flex-col">
