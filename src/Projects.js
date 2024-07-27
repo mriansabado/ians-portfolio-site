@@ -5,9 +5,9 @@ import JSDrumkit from './assets/JS-Drumkit.png';
 
 const projects = [
   { title: 'Fontastic', description: 'Input text and have it appear on your screen in full size. Communicate non-verbally to your friends across the room! Stack: React Native | Lottie files', link: '#', image: Fontastic },
-  { title: 'BarBlend Guru', description: 'Lookup cocktail recipes and get drink suggestions by utilizing this web app. Stack: Next JS | Tailwind CSS | Rest API', link: 'https://barblend-guru-app-c29y.vercel.app/', image: BarblendImage },
+  { title: 'BarBlend Guru', description: 'Lookup cocktail recipes and get drink suggestions by utilizing this web app. Stack: Next JS | Tailwind CSS | Rest API', link: 'https://main.d2e1ldx3lbiju.amplifyapp.com/', image: BarblendImage },
   { title: 'Javascript Drumkit', description: 'Use your computer keyboard as a drumkit', link: 'https://mriansabado.github.io/javaScript-drumkit/', image: JSDrumkit },
-  { title: 'Project 4', description: 'Description for project 4', link: 'https://mriansabado.github.io/javaScript-drumkit/', image: 'https://via.placeholder.com/400' },
+  { title: 'Project 4', description: 'Description for project 4', link: '#', image: 'https://via.placeholder.com/400' },
 ];
 
 const ProjectCard = ({ title, description, link, image }) => (
