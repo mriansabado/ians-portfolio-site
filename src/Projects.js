@@ -1,6 +1,6 @@
 import React from "react";
 import BarblendImage from './assets/barblend.png';
-import Fontastic from './assets/fontastic-home.jpeg';
+import Fontastic from './assets/fontastic-image.png';
 import JSDrumkit from './assets/JS-Drumkit.png';
 
 const projects = [
