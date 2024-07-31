@@ -14,11 +14,8 @@ export default function About() {
           <div className="w-full md:w-2/3 p-8">
             <h2 className="text-4xl font-bold mb-4 border-b-2 border-teal-400 inline-block">About Me</h2>
             <p className="text-lg mb-4 leading-relaxed">
-              Hello! I'm <span className="text-teal-400">Ian Sabado</span>, i'm a Software Engineer residing in the San Francisco Bay area. I have a passion for making beautiful websites and applications.
+                  Hi! I'm <span className="text-teal-400">Ian Sabado</span>, a Software Engineer residing in the San Francisco Bay area. I have a passion for making beautiful websites and applications. With a knack for turning ideas into engaging user experiences, I love exploring new technologies and continuously learning. When I'm not coding, you can find me hiking the local trails, experimenting with new recipes in the kitchen, or catching up on the latest tech trends. Let's connect and create something amazing together!
             </p>
-            <button className="mt-6 px-6 py-3 bg-teal-400 text-gray-900 font-semibold rounded-lg shadow-md hover:bg-teal-500 transition-colors">
-              Contact Me
-            </button>
           </div>
         </div>
       </div>

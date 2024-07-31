@@ -25,7 +25,7 @@ const ProjectCard = ({ title, description, link, image }) => (
 export default function Projects() {
   return (
     <div className="min-h-screen bg-gradient-to-r from-blue-900 via-purple-900 to-black text-white py-10 px-5 flex flex-col items-center justify-center">
-      <h1 className="text-4xl font-extrabold text-center mb-10">My Projects</h1>
+      <h1 className="text-4xl font-extrabold text-center mb-10">Projects</h1>
       <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 w-full max-w-4xl">
         {projects.map((project, index) => (
           <ProjectCard 
