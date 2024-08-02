@@ -8,7 +8,6 @@ import Contact from './contact.js';
 const HomePage = () => {
   return (
     <>
-      <HomeIntro />
       <div className='main-wrap'>
         {/* Hero Section */}
         <div className="hero min-h-screen relative bg-gradient-to-r from-blue-900 via-purple-900 to-black">

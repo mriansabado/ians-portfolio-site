@@ -29,7 +29,7 @@ export default function HomeIntro() {
           <Lottie 
             options={defaultOptions}
             height={window.innerWidth <= 768 ? 750 : 900}
-            width={window.innerWidth <= 768 ? 400 : 700}
+            width={window.innerWidth <= 768 ? 100 : 700}
             />
           ) : null}
             
