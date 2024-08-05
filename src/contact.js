@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import NightImage from './assets/bannerNight.png';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -39,7 +40,12 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-blue-900 via-purple-900 to-black text-white px-4 md:px-0">
+    <div className="min-h-screen flex flex-col items-center justify-center text-white px-4 md:px-0"
+      style={{ 
+          backgroundImage: `url(${NightImage})`, 
+          backgroundSize: "fill", 
+          backgroundPosition: "bottom" 
+        }}>
       <div className="w-full max-w-4xl bg-opacity-75 p-10 md:p-16 rounded-lg shadow-2xl flex flex-col items-center relative">
         <div className="absolute inset-0 z-0">
           

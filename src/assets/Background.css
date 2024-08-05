@@ -14,7 +14,7 @@
 #bg-effect {
     background: linear-gradient(270deg, #ff7e5f, #feb47b, #ff7e5f, #6a11cb, #2575fc);
     background-size: 1000% 1000%;
-    animation: gradientAnimation 20s ease infinite;
+    animation: gradientAnimation 10s ease infinite;
 }
 
 /* Gradient animation keyframes */

@@ -2,6 +2,7 @@ import React from "react";
 import BarblendImage from './assets/barblend.png';
 import Fontastic from './assets/fontastic-image.png';
 import JSDrumkit from './assets/JS-Drumkit.png';
+import NightImage from './assets/bannerNight.png';
 
 const projects = [
   {
@@ -30,9 +31,14 @@ const ProjectCard = ({ title, description, stack, link, image }) => (
 
 export default function Projects() {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-blue-900 via-purple-900 to-black text-white py-10 px-5 flex flex-col items-center justify-center">
-      <h1 className="text-4xl font-extrabold text-center mb-10">Projects</h1>
-      <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 w-full max-w-4xl">
+    <div className="min-h-screen bg-gradient-to-r py-10 px-5 flex flex-col items-center justify-center"
+    style={{ 
+          backgroundImage: `url(${NightImage})`, 
+          backgroundSize: "fill", 
+          backgroundPosition: "top" 
+        }}>
+      <h1 className="text-4xl font-extrabold text-center mb-10 text-white">Projects</h1>
+      <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full max-w-7xl">
         {projects.map((project, index) => (
           <ProjectCard 
             key={index} 
