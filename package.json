@@ -2,7 +2,7 @@
   "name": "ian-portfolio-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mriansabado.github.io/iandev-site/",
+  "homepage": "https://mriansabado.github.io/ians-portfolio-site/",
   "dependencies": {
     "@lottiefiles/react-lottie-player": "^3.5.4",
     "@testing-library/jest-dom": "^5.17.0",
