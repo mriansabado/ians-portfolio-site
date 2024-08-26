@@ -6,7 +6,7 @@ import NightImage from './assets/bannerNight.png';
 
 const projects = [
   {
-    title: 'Fontastic', description: 'Input text and have it appear on your screen in full size. Communicate non-verbally to your friends across the room! NOTE: This is a mobile app, it can be previewed using "Expo Go" More info in then link below', stack: 'React Native | Tailwind CSS | Expo | Lottie files', link: 'https://expo.dev/preview/update?message=making%20expo%20work&updateRuntimeVersion=1.0.0&createdAt=2024-08-23T05%3A31%3A14.578Z&slug=exp&projectId=46bb1139-8352-4631-b16b-7e1ec8b80edb&group=84124715-5c26-4718-b4d2-cd3b5dbdf770', image: Fontastic
+    title: 'Fontastic', description: 'Input text and have it appear on your screen in full size. Communicate non-verbally to your friends across the room! NOTE: This is a mobile app, it can be previewed using "Expo Go" More info in the link below', stack: 'React Native | Tailwind CSS | Expo | Lottie files', link: 'https://expo.dev/preview/update?message=making%20expo%20work&updateRuntimeVersion=1.0.0&createdAt=2024-08-23T05%3A31%3A14.578Z&slug=exp&projectId=46bb1139-8352-4631-b16b-7e1ec8b80edb&group=84124715-5c26-4718-b4d2-cd3b5dbdf770', image: Fontastic
   },
   {
     title: 'BarBlend Guru', description: 'Lookup cocktail recipes and get drink suggestions by utilizing this web app.', stack: 'React | Next JS | Tailwind CSS | Rest API | AWS Cloud Services', link: 'https://main.d2e1ldx3lbiju.amplifyapp.com/', image: BarblendImage
