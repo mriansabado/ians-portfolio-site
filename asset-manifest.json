@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ians-portfolio-site/static/css/main.de57abd8.css",
+    "main.js": "/ians-portfolio-site/static/js/main.57a91932.js",
+    "static/js/453.63280706.chunk.js": "/ians-portfolio-site/static/js/453.63280706.chunk.js",
+    "static/media/fontastic-image.png": "/ians-portfolio-site/static/media/fontastic-image.f3b20cab783db2dc039a.png",
+    "static/media/JS-Drumkit.png": "/ians-portfolio-site/static/media/JS-Drumkit.f518aad43e4c10eeb6cb.png",
+    "static/media/bannerNight.png": "/ians-portfolio-site/static/media/bannerNight.82984b87d4f3db6039f1.png",
+    "static/media/profile-photo.jpg": "/ians-portfolio-site/static/media/profile-photo.c7fba50eed3c7919b53f.jpg",
+    "static/media/barblend.png": "/ians-portfolio-site/static/media/barblend.93eda3c40cc1050d02b7.png",
+    "index.html": "/ians-portfolio-site/index.html",
+    "main.de57abd8.css.map": "/ians-portfolio-site/static/css/main.de57abd8.css.map",
+    "main.57a91932.js.map": "/ians-portfolio-site/static/js/main.57a91932.js.map",
+    "453.63280706.chunk.js.map": "/ians-portfolio-site/static/js/453.63280706.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de57abd8.css",
+    "static/js/main.57a91932.js"
+  ]
+}
