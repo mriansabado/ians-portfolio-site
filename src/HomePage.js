@@ -50,8 +50,9 @@ const HomePage = () => {
             background-size: cover; /* Ensure the background still covers the area */
           }
 
-          .hero-content {
-            padding: 16px; /* Adjust padding for smaller screens */
+          .hero {
+            min-height: 100vh; /* Ensure the hero section takes full viewport height */
+            padding: 0 16px; /* Adjust padding for smaller screens */
           }
 
           h1 {
@@ -60,6 +61,20 @@ const HomePage = () => {
 
           p {
             font-size: 1.25rem; /* Adjust font size for smaller screens */
+          }
+        }
+
+        @media (max-width: 480px) {
+          h1 {
+            font-size: 2rem; /* Further adjust font size for very small screens */
+          }
+
+          p {
+            font-size: 1rem; /* Further adjust font size for very small screens */
+          }
+
+          .hero-content {
+            padding: 12px; /* Further adjust padding for very small screens */
           }
         }
       `}</style>
