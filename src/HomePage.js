@@ -45,9 +45,11 @@ const HomePage = () => {
       <style jsx>{`
         @media (max-width: 768px) {
           .main-wrap {
-            background-attachment: scroll; /* Allow the background to scroll with content on mobile */
-            background-position: center top; /* Adjust the position for mobile */
-            background-size: cover; /* Ensure the background still covers the area */
+            background-attachment: scroll;
+            background-position: center center;
+            background-size: contain; /* Show full image on mobile */
+            background-color: #000; /* Add background color for empty space */
+            min-height: 100vh;
           }
 
           .hero {
